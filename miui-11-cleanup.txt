@@ -1,0 +1,68 @@
+# Below are list of packages to remove using "adb shell"
+
+# If you know what these are, most likely you will know where to find information about what the items below mean.
+# Please go to xda-developers forum to get enlightenment.
+
+# Unsure what most of these are, but can be removed from Redmi 7A with Miui 11
+
+pm uninstall -k --user 0 com.amazon.appmanager
+pm uninstall -k --user 0 com.android.browser
+pm uninstall -k --user 0 com.android.wallpaperbackup
+pm uninstall -k --user 0 com.facebook.appmanager
+pm uninstall -k --user 0 com.facebook.services
+pm uninstall -k --user 0 com.facebook.system
+pm uninstall -k --user 0 com.google.android.apps.docs
+pm uninstall -k --user 0 com.google.android.apps.photos
+pm uninstall -k --user 0 com.google.android.apps.tachyon
+pm uninstall -k --user 0 com.google.android.marvin.talkback
+pm uninstall -k --user 0 com.google.android.music
+pm uninstall -k --user 0 com.google.android.videos
+pm uninstall -k --user 0 com.mi.globalTrendNews
+pm uninstall -k --user 0 com.mipay.wallet.id
+pm uninstall -k --user 0 com.mipay.wallet.in
+pm uninstall -k --user 0 com.miui.backup
+pm uninstall -k --user 0 com.miui.bugreport
+pm uninstall -k --user 0 com.miui.cloudbackup
+pm uninstall -k --user 0 com.miui.cloudservice
+pm uninstall -k --user 0 com.miui.cloudservice.sysbase
+pm uninstall -k --user 0 com.miui.micloudsync
+pm uninstall -k --user 0 com.miui.msa.global
+pm uninstall -k --user 0 com.miui.weather2
+pm uninstall -k --user 0 com.miui.yellowpage
+pm uninstall -k --user 0 com.xiaomi.discover
+pm uninstall -k --user 0 com.xiaomi.glgm
+pm uninstall -k --user 0 com.xiaomi.joyose
+pm uninstall -k --user 0 com.xiaomi.midrop
+pm uninstall -k --user 0 com.xiaomi.mipicks
+pm uninstall -k --user 0 com.xiaomi.payment
+pm uninstall -k --user 0 com.xiaomi.xmsf
+
+
+# Below failed but still worth running just for fun
+
+pm uninstall -k --user 0 cn.wps.xiaomi.abroad.lite
+pm uninstall -k --user 0 com.android.hotwordenrollment.xgoogle
+pm uninstall -k --user 0 com.android.midrive
+pm uninstall -k --user 0 com.android.xmsf
+pm uninstall -k --user 0 com.baidu.input_mi
+pm uninstall -k --user 0 com.baidu.searchbox
+pm uninstall -k --user 0 com.facebook.katana
+pm uninstall -k --user 0 com.google.android.apps.plus
+pm uninstall -k --user 0 com.google.android.inputmethod.japanese
+pm uninstall -k --user 0 com.google.android.pixel.setupwizard
+pm uninstall -k --user 0 com.google.android.projection.gearhead
+pm uninstall -k --user 0 com.google.android.talk
+pm uninstall -k --user 0 com.google.ar.lens
+pm uninstall -k --user 0 com.mi.global.bbs
+pm uninstall -k --user 0 com.miui.android.fashiongallery
+pm uninstall -k --user 0 com.miui.enbbs
+pm uninstall -k --user 0 com.miui.providers.weather
+pm uninstall -k --user 0 com.miui.translation.kingsoft
+pm uninstall -k --user 0 com.miui.translation.xmcloud
+pm uninstall -k --user 0 com.miui.translation.youdao
+pm uninstall -k --user 0 com.miui.translationservice
+pm uninstall -k --user 0 com.miui.vsimcore
+pm uninstall -k --user 0 com.netflix.partner.activation
+pm uninstall -k --user 0 com.qualcomm.qti.haven.telemetry.service
+pm uninstall -k --user 0 com.xiaomi.shop
+pm uninstall -k --user 0 com.xiaomi.vipaccount
