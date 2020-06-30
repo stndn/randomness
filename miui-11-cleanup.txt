@@ -14,7 +14,6 @@ pm uninstall -k --user 0 com.facebook.system
 pm uninstall -k --user 0 com.google.android.apps.docs
 pm uninstall -k --user 0 com.google.android.apps.photos
 pm uninstall -k --user 0 com.google.android.apps.tachyon
-pm uninstall -k --user 0 com.google.android.marvin.talkback
 pm uninstall -k --user 0 com.google.android.music
 pm uninstall -k --user 0 com.google.android.videos
 pm uninstall -k --user 0 com.mi.globalTrendNews
@@ -66,3 +65,34 @@ pm uninstall -k --user 0 com.netflix.partner.activation
 pm uninstall -k --user 0 com.qualcomm.qti.haven.telemetry.service
 pm uninstall -k --user 0 com.xiaomi.shop
 pm uninstall -k --user 0 com.xiaomi.vipaccount
+
+
+# Additional items to remove based on https://devcondition.com/article/removing-unneeded-miui-applications/
+
+
+# Remove and reinstall from Google Store
+
+pm uninstall -k --user 0 com.google.android.youtube
+pm uninstall -k --user 0 com.google.android.apps.docs
+pm uninstall -k --user 0 com.google.android.apps.maps
+pm uninstall -k --user 0 com.android.chrome 
+pm uninstall -k --user 0 com.android.email
+
+
+# Others that were not removed previously
+
+pm uninstall -k --user 0 com.google.android.play.games
+pm uninstall -k --user 0 com.miui.personalassistant
+pm uninstall -k --user 0 com.android.dreams.basic
+pm uninstall -k --user 0 com.google.android.feedback
+pm uninstall -k --user 0 com.miui.hybrid
+pm uninstall -k --user 0 com.miui.hybrid.accessory
+
+
+pm uninstall -k --user 0 com.xiaomi.payment
+pm uninstall -k --user 0 com.micredit.in
+pm uninstall -k --user 0 com.mipay.wallet.id
+pm uninstall -k --user 0 com.mipay.wallet.in
+pm uninstall -k --user 0 com.miui.analytics
+pm uninstall -k --user 0 com.xiaomi.joyose
+pm uninstall -k --user 0 com.mi.global.shop
