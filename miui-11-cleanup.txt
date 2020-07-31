@@ -7,6 +7,10 @@
 
 pm uninstall -k --user 0 com.amazon.appmanager
 pm uninstall -k --user 0 com.android.browser
+
+# New Mi Browser
+pm uninstall -k --user 0 com.mi.globalbrowser
+
 pm uninstall -k --user 0 com.android.wallpaperbackup
 pm uninstall -k --user 0 com.facebook.appmanager
 pm uninstall -k --user 0 com.facebook.services
