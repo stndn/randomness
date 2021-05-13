@@ -100,3 +100,24 @@ pm uninstall -k --user 0 com.mipay.wallet.in
 pm uninstall -k --user 0 com.miui.analytics
 pm uninstall -k --user 0 com.xiaomi.joyose
 pm uninstall -k --user 0 com.mi.global.shop
+
+
+# Stuffs to remove - miui 12 - 2021.05.13:
+
+pm uninstall --user 0 com.android.dreams.phototable
+pm uninstall --user 0 com.android.providers.downloads.ui
+pm uninstall --user 0 com.android.wallpaper.livepicker
+pm uninstall --user 0 com.miui.yellowpage
+pm uninstall --user 0 com.netflix.partner.activation
+pm uninstall --user 0 com.tencent.soter.soterserver
+
+
+To replace with GO (depending on OS / device):
+pm uninstall --user 0 com.google.android.apps.maps
+pm uninstall --user 0 com.google.android.gm
+pm uninstall --user 0 com.google.android.gms
+pm uninstall --user 0 com.google.android.gms.location.history
+pm uninstall --user 0 com.google.android.youtube
+
+To replace with another browser:
+pm uninstall --user 0 com.android.chrome
