@@ -121,3 +121,11 @@ pm uninstall --user 0 com.google.android.youtube
 
 To replace with another browser:
 pm uninstall --user 0 com.android.chrome
+
+
+# New from miui 12.5
+# Google setup wizard
+pm uninstall --user 0 com.google.android.setupwizard
+pm uninstall --user 0 com.google.android.overlay.setupwizard
+pm uninstall --user 0 com.google.android.onetimeinitializer
+
