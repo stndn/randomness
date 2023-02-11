@@ -130,6 +130,8 @@ pm uninstall --user 0 com.google.android.overlay.setupwizard
 pm uninstall --user 0 com.google.android.onetimeinitializer
 
 
+# Added 2022-02-12
+
 # Google One
 pm uninstall --user 0 com.google.android.apps.subscriptions.red
 
@@ -141,3 +143,7 @@ pm uninstall --user 0 com.google.android.apps.walletnfcrel
 
 # Podcast
 pm uninstall --user 0 com.google.android.apps.podcasts
+
+# More from https://forum.xda-developers.com/t/debloating-miui-without-root-access-manual-method.4149707/
+# Ad-based app installer
+pm uninstall --user 0 com.miui.global.packageinstaller
