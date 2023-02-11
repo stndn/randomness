@@ -129,3 +129,15 @@ pm uninstall --user 0 com.google.android.setupwizard
 pm uninstall --user 0 com.google.android.overlay.setupwizard
 pm uninstall --user 0 com.google.android.onetimeinitializer
 
+
+# Google One
+pm uninstall --user 0 com.google.android.apps.subscriptions.red
+
+# Google News
+pm uninstall --user 0 com.google.android.apps.magazines
+
+# Google Waller
+pm uninstall --user 0 com.google.android.apps.walletnfcrel
+
+# Podcast
+pm uninstall --user 0 com.google.android.apps.podcasts
